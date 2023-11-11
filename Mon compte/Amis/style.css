@@ -1,0 +1,247 @@
+h1{
+    color: white;
+    text-decoration: underline;
+}
+
+h2{
+  color: white;
+  text-decoration: underline;
+}
+
+body{
+    background-repeat: repeat-y;
+} 
+
+
+
+.ADA{
+  display: grid;
+  grid-template-columns: 400px 400px 450px;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.col-size {
+  width: 450px;
+  height: 450px;
+  background: rgb(0, 35, 80);
+}
+
+.col-size2{
+    width: 450px;
+    height: 450px;
+    background: rgb(0, 35, 80);
+}
+
+.col-size3{
+    width: 450px;
+    height: 450px;
+    background: rgb(0, 35, 80);
+}
+
+
+.parent{
+  position: relative;
+}
+
+.ajout{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.ajout2{
+  z-index: 2;
+}
+
+
+#wrap {
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    z-index: 99;
+    position: relative;
+    background-color: white;
+  }
+  
+  .navbar {
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+  }
+  
+  .navbar li {
+    height: auto;
+    width: 135.8px;
+    float: left;
+    text-align: center;
+    list-style: none;
+    font: normal bold 13px/1em Arial, Verdana, Helvetica;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+  }
+  
+  .navbar a {
+    padding: 18px 0;
+    border-left: 1px solid #ccc9c9;
+    text-decoration: none;
+    color: black;
+    display: block;
+  }
+  
+  .navbar li:hover,
+  a:hover {
+    background-color: white;
+  }
+  
+  .navbar li ul {
+    display: none;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li:hover ul {
+    display: block;
+  }
+  
+  .navbar li ul li {
+    background-color: white;
+  }
+  
+  .navbar li ul li a {
+    border-left: 1px solid #444444;
+    border-right: 1px solid #444444;
+    border-top: 1px solid #c9d4d8;
+    border-bottom: 1px solid #444444;
+  }
+  
+  .navbar li ul li a:hover {
+    background-color: #a3a1a1;
+  }
+
+
+
+
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+
+  .list {
+    width: 100%;
+    border-left: 1px solid transparent;
+    padding: 0px;
+  }
+
+  .list h2 {
+    padding-right: 1080px;
+    text-align: left;
+    color: white;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    background-color: #45a049;
+  }
+
+  .friends-list{
+    background-color: #ebe6e6;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .players-list, .friends-list {
+    list-style-type: none;
+    padding: 1px;
+  }
+
+  .players-list li, .friends-list li {
+    cursor: pointer;
+    padding: 5px;
+  }
+
+  .players-list li.selected, .friends-list li.selected {
+    background-color: rgb(46, 46, 207);
+    margin-right: 40px;
+  }
+
+  .search {
+    margin-bottom: 10px;
+  }
+
+  .search input {
+    width: 30%;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+
+  .container2 {
+    width: 300px;
+    height: 320px;
+    overflow-y: scroll;
+    border: 1px solid transparent;
+    margin-right: 0px ;
+    position: absolute;
+    background-color: #ebe6e6;
+  }
+
+  .container3 {
+    width: 300px;
+    height: 355px;
+    overflow-y: scroll;
+    border: 1px solid transparent;
+    margin-right: 0px ;
+    position: absolute;
+    background-color: #ebe6e6;
+  }
+
+  /* Style pour la barre de défilement */
+  .container::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f5f5f5;
+  }
+
+  .container::-webkit-scrollbar-thumb {
+    background-color: #888;
+  }
+
+  /* Style pour les éléments de la liste */
+  .container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .container li:hover {
+    background-color: #c0c0c0;
+  }
+
+  .container li {
+    padding: 10px;
+    background-color: transparent;
+    border-bottom: 1px solid transparent;
+  }
